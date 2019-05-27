@@ -1,0 +1,121 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1558925991330" stop="1558925991377">
+  <name>test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1558925991330" status="passed" stop="1558925991330">
+      <name>Test_001.test_001_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="14024-MainThread"/>
+        <label name="host" value="DASKTOP-APL41R1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1558925991330" status="passed" stop="1558925991330">
+          <name>这是一个测试步骤01</name>
+          <title>这是一个测试步骤01</title>
+          <attachments>
+            <attachment source="99f5d63a-ac9f-435e-a92e-771e212be21d-attachment.txt" title="标题" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1558925991330" status="failed" stop="1558925991362">
+      <name>Test_001.test_001_2</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;test_001.Test_001 object at 0x0000018B7DA558D0&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    @allure.step(title="这是一个测试步骤02")
+    def test_001_2(self):
+        allure.attach("用户名", "张三")
+        allure.attach("密码", "123456")
+        print("---&gt;test_001_2")
+&gt;       assert False
+E       assert False
+
+test_001.py:18: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="14024-MainThread"/>
+        <label name="host" value="DASKTOP-APL41R1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1558925991330" status="failed" stop="1558925991346">
+          <name>这是一个测试步骤02</name>
+          <title>这是一个测试步骤02</title>
+          <attachments>
+            <attachment source="eaa2d647-5fa6-4960-a37b-d191946bc3a0-attachment.txt" title="用户名" type="text/plain"/>
+            <attachment source="1affdcb9-b9ed-44c3-9fe5-9d06d42059de-attachment.txt" title="密码" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1558925991377" status="passed" stop="1558925991377">
+      <name>Test_001.test_001_3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14024-MainThread"/>
+        <label name="host" value="DASKTOP-APL41R1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1558925991377" status="passed" stop="1558925991377">
+          <name>这是一个测试步骤03</name>
+          <title>这是一个测试步骤03</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1558925991377" status="passed" stop="1558925991377">
+      <name>Test_001.test_001_4</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="14024-MainThread"/>
+        <label name="host" value="DASKTOP-APL41R1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1558925991377" status="passed" stop="1558925991377">
+          <name>这是一个测试步骤04</name>
+          <title>这是一个测试步骤04</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1558925991377" status="passed" stop="1558925991377">
+      <name>Test_001.test_001_5</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="14024-MainThread"/>
+        <label name="host" value="DASKTOP-APL41R1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1558925991377" status="passed" stop="1558925991377">
+          <name>这是一个测试步骤05</name>
+          <title>这是一个测试步骤05</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
